@@ -6,8 +6,8 @@ export const Navbar = () => {
   return (
     <div className='flex justify-between px-9 px-auto py-4 items-center'>
         <div className='flex items-baseline'>
-            <p className='text-[25px] font-bold'>Chops</p>
-            <p className='text-[25px] font-bold text-yellow-400'>.</p>
+            <p className='text-[30px] font-bold'>Chops</p>
+            <p className='text-[30px] font-bold text-[#E63946]'>.</p>
         </div>
         
         <div>
@@ -18,7 +18,7 @@ export const Navbar = () => {
                 <li className='text-gray-500'><Link to='/contact'>Contact</Link></li>
             </ul>
         </div>
-        <button className='border p-3 rounded-md bg-yellow-400 outline-none text-white font-bold'>Place an Order</button>
+        <button className='border p-3 rounded-lg bg-[#E63946] outline-none text-white font-bold'>Place an Order</button>
     </div>
   )
 }
