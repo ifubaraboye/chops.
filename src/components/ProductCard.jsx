@@ -3,11 +3,16 @@ import React from 'react'
 
 const ProductCard = ({product}) => {
   return (
-    <div>
-        <img src={product.image} alt="" />
-        <p>{product.title}</p>
+    <div className='grid items-center'>
+        <div>
+            <img className='' src={product.image} alt="" width={200} />
+        </div>
+        <div>
+        <p className='block'>{product.title}</p>
         <p>{product.description}</p>
-        <p>{product.price}</p>
+        <p className='block'>{product.price}</p>
+        </div>
+        
     </div>
   )
 }

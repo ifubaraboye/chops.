@@ -5,7 +5,7 @@ const ProductList = ({Products, category}) => {
     const productCategory = Products.filter((Product) => Product.category === category) 
 
   return (
-    <div>
+    <div className='flex justify-center text-center gap-x-10'>
         {productCategory.length > 0 ? (
         productCategory.map((product) => (
           <ProductCard key={product.id} product={product} />

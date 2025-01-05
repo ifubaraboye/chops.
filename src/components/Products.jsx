@@ -1,4 +1,6 @@
-import React from 'react'
+
+// import ChopsTemp from '../assets/placeholder.jpg'
+import Template from '../assets/placeholder3.jpg'   
 
 const Products = [
     {
@@ -6,7 +8,7 @@ const Products = [
         category: 'Pack',
         price: 1500,
         contents : 'This is a pack of 6 pieces of meat pie',
-    //    image: 'https://res.cloudinary.com/djvjxp',
+        image: Template,
         title: 'Package 1'
     },
 
@@ -15,7 +17,7 @@ const Products = [
         category: 'Pack',
         price: 2500,
         contents : 'This is a pack of 6 pieces of meat pie',
-       // image: 'https://res.cloudinary.com/djvjxp',
+        image: Template,
         title: 'Package 2'
     },
 
@@ -24,7 +26,7 @@ const Products = [
         category: 'Pack',
         price: 3500,
         contents : 'This is a pack of 6 pieces of meat pie',
-       // image: 'https://res.cloudinary.com/djvjxp',
+        image: Template,
         title: 'Package 3'
     },
 
@@ -33,7 +35,7 @@ const Products = [
         category: 'Pack',
         price: 5000,
         contents : 'This is a pack of 6 pieces of meat pie',
-       // image: 'https://res.cloudinary.com/djvjxp',
+        image: Template,
         title: 'Package 4'
     },
 
@@ -42,7 +44,7 @@ const Products = [
         category: 'Pack',
         price: 7000,
         contents : 'This is a pack of 6 pieces of meat pie',
-       // image: 'https://res.cloudinary.com/djvjxp',
+        image: Template,
         title: 'Package 5'
     },
 
