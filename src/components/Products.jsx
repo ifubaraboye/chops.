@@ -11,7 +11,7 @@ const Products = [
     },
 
     {
-        id: 1,
+        id: 2,
         category: 'Pack',
         price: 2000,
         contents : 'This is a pack of 6 pieces of meat pie',
@@ -20,7 +20,7 @@ const Products = [
     },
 
     {
-        id: 1,
+        id: 3,
         category: 'Pack',
         price: 2000,
         contents : 'This is a pack of 6 pieces of meat pie',
@@ -29,22 +29,67 @@ const Products = [
     },
 
     {
-        id: 1,
+        id: 4,
         category: 'Pack',
         price: 2000,
         contents : 'This is a pack of 6 pieces of meat pie',
         image: 'https://res.cloudinary.com/djvjxp',
         title: 'Meat Pie'
     },
-    
+
     {
-        id: 1,
+        id: 5,
         category: 'Pack',
         price: 2000,
         contents : 'This is a pack of 6 pieces of meat pie',
         image: 'https://res.cloudinary.com/djvjxp',
         title: 'Meat Pie'
-    }
+    },
+
+    {
+        id: 6,
+        category: 'Platter',
+        price: 2000,
+        contents : 'This is a pack of 6 pieces of meat pie',
+        image: 'https://res.cloudinary.com/djvjxp',
+        title: 'Meat Pie'
+    },
+
+    {
+        id: 7,
+        category: 'Platter',
+        price: 2000,
+        contents : 'This is a pack of 6 pieces of meat pie',
+        image: 'https://res.cloudinary.com/djvjxp',
+        title: 'Meat Pie'
+    },
+
+    {
+        id: 8,
+        category: 'Platter',
+        price: 2000,
+        contents : 'This is a pack of 6 pieces of meat pie',
+        image: 'https://res.cloudinary.com/djvjxp',
+        title: 'Meat Pie'
+    },
+
+    {
+        id: 9,
+        category: 'Platter',
+        price: 2000,
+        contents : 'This is a pack of 6 pieces of meat pie',
+        image: 'https://res.cloudinary.com/djvjxp',
+        title: 'Meat Pie'
+    },
+
+    {
+        id: 10,
+        category: 'Protein',
+        price: 2000,
+        contents : 'This is a pack of 6 pieces of meat pie',
+        image: 'https://res.cloudinary.com/djvjxp',
+        title: 'Meat Pie'
+    },
 ]
 
 
