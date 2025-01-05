@@ -1,12 +1,13 @@
 import React from 'react'
+// import Products from './Products'
 
-const ProductCard = ({Product}) => {
+const ProductCard = ({product}) => {
   return (
     <div>
-        <img src={Product.image} alt="" />
-        <p>{Product.title}</p>
-        <p>{Product.description}</p>
-        <p>{Product.price}</p>
+        <img src={product.image} alt="" />
+        <p>{product.title}</p>
+        <p>{product.description}</p>
+        <p>{product.price}</p>
     </div>
   )
 }

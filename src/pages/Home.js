@@ -3,6 +3,10 @@ import { Navbar } from "../components/Navbar";
 import Hero from '../assets/hero.png'
 import './Home.css'
 import  ProductList  from "../components/ProductList";
+import Products from "../components/Products";
+import { Link } from "react-router-dom";
+
+// const ProductList = ({Products, category}) => {}
 
 export function Home() {
     return (
@@ -24,8 +28,26 @@ export function Home() {
           </div>
         </div>
 
-        <div>
-          <ProductList />
+        <div className="pt-20 pb-5">
+          <div className="flex justify-center items-center pt-10 px-auto">
+            <ul className="flex gap-x-10 text-gray-500 font-semibold">
+              <div>
+                <li><Link>PACKS</Link></li>
+                <p className="border-[2px] border-[#E63946] rounded-lg"></p>
+              </div>
+              <div>
+                <li><Link>PLATTERS</Link></li>
+                <p className="border-[2px] border-[#E63946] rounded-lg"></p>
+              </div>
+              <div>
+                <li><Link>PROTEIN</Link></li>
+                <p className="border-[2px] border-[#E63946] rounded-lg"></p>
+              </div>
+            </ul>
+          </div>
+
+          <div className=""><ProductList Products={Products} category='Pack' /></div>
+          
         </div>
       </div>
     );

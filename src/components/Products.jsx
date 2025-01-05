@@ -6,7 +6,7 @@ const Products = [
         category: 'Pack',
         price: 1500,
         contents : 'This is a pack of 6 pieces of meat pie',
-        image: 'https://res.cloudinary.com/djvjxp',
+    //    image: 'https://res.cloudinary.com/djvjxp',
         title: 'Package 1'
     },
 
@@ -15,7 +15,7 @@ const Products = [
         category: 'Pack',
         price: 2500,
         contents : 'This is a pack of 6 pieces of meat pie',
-        image: 'https://res.cloudinary.com/djvjxp',
+       // image: 'https://res.cloudinary.com/djvjxp',
         title: 'Package 2'
     },
 
@@ -24,7 +24,7 @@ const Products = [
         category: 'Pack',
         price: 3500,
         contents : 'This is a pack of 6 pieces of meat pie',
-        image: 'https://res.cloudinary.com/djvjxp',
+       // image: 'https://res.cloudinary.com/djvjxp',
         title: 'Package 3'
     },
 
@@ -33,7 +33,7 @@ const Products = [
         category: 'Pack',
         price: 5000,
         contents : 'This is a pack of 6 pieces of meat pie',
-        image: 'https://res.cloudinary.com/djvjxp',
+       // image: 'https://res.cloudinary.com/djvjxp',
         title: 'Package 4'
     },
 
@@ -42,7 +42,7 @@ const Products = [
         category: 'Pack',
         price: 7000,
         contents : 'This is a pack of 6 pieces of meat pie',
-        image: 'https://res.cloudinary.com/djvjxp',
+       // image: 'https://res.cloudinary.com/djvjxp',
         title: 'Package 5'
     },
 
@@ -51,7 +51,7 @@ const Products = [
         category: 'Platter',
         price: 16000,
         contents : 'This is a pack of 6 pieces of meat pie',
-        image: 'https://res.cloudinary.com/djvjxp',
+       // image: 'https://res.cloudinary.com/djvjxp',
         title: 'Platter 1'
     },
 
@@ -60,7 +60,7 @@ const Products = [
         category: 'Platter',
         price: 18000,
         contents : 'This is a pack of 6 pieces of meat pie',
-        image: 'https://res.cloudinary.com/djvjxp',
+       // image: 'https://res.cloudinary.com/djvjxp',
         title: 'Platter 2'
     },
 
@@ -69,7 +69,7 @@ const Products = [
         category: 'Platter',
         price: 20000,
         contents : 'This is a pack of 6 pieces of meat pie',
-        image: 'https://res.cloudinary.com/djvjxp',
+       // image: 'https://res.cloudinary.com/djvjxp',
         title: 'Platter 3'
     },
 
@@ -78,7 +78,7 @@ const Products = [
         category: 'Platter',
         price: 25000,
         contents : 'This is a pack of 6 pieces of meat pie',
-        image: 'https://res.cloudinary.com/djvjxp',
+       // image: 'https://res.cloudinary.com/djvjxp',
         title: 'Platter 4'
     },
 
@@ -88,7 +88,7 @@ const Products = [
         type: 'Kebabs',
         price: 1000,
         contents : 'This is a pack of 6 pieces of meat pie',
-        image: 'https://res.cloudinary.com/djvjxp',
+       // image: 'https://res.cloudinary.com/djvjxp',
         title: 'Beef'
     },
     {
@@ -97,7 +97,7 @@ const Products = [
         type: 'Kebabs',
         price: 2500,
         contents : 'This is a pack of 6 pieces of meat pie',
-        image: 'https://res.cloudinary.com/djvjxp',
+       // image: 'https://res.cloudinary.com/djvjxp',
         title: 'Gizzard'
     },
 
@@ -107,7 +107,7 @@ const Products = [
         type: 'Kebabs',
         price: 3000,
         contents : 'This is a pack of 6 pieces of meat pie',
-        image: 'https://res.cloudinary.com/djvjxp',
+       // image: 'https://res.cloudinary.com/djvjxp',
         title: 'Snail'
     },
 
@@ -117,7 +117,7 @@ const Products = [
         type: 'Chicken',
         price: 3000,
         contents : 'This is a pack of 6 pieces of meat pie',
-        image: 'https://res.cloudinary.com/djvjxp',
+       // image: 'https://res.cloudinary.com/djvjxp',
         title: 'Chicken'
     },
 
@@ -125,9 +125,9 @@ const Products = [
         id: 14,
         category: 'Protein',
         type: 'Turkey',
-        price: 3500,
+        price: 35000,
         contents : 'This is a pack of 6 pieces of meat pie',
-        image: 'https://res.cloudinary.com/djvjxp',
+       // image: 'https://res.cloudinary.com/djvjxp',
         title: 'Turkey'
     }
 ]
