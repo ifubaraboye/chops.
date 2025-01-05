@@ -4,46 +4,46 @@ const Products = [
     {
         id: 1,
         category: 'Pack',
-        price: 2000,
+        price: 1500,
         contents : 'This is a pack of 6 pieces of meat pie',
         image: 'https://res.cloudinary.com/djvjxp',
-        title: 'Meat Pie'
+        title: 'Package 1'
     },
 
     {
         id: 2,
         category: 'Pack',
-        price: 2000,
+        price: 2500,
         contents : 'This is a pack of 6 pieces of meat pie',
         image: 'https://res.cloudinary.com/djvjxp',
-        title: 'Meat Pie'
+        title: 'Package 2'
     },
 
     {
         id: 3,
         category: 'Pack',
-        price: 2000,
+        price: 3500,
         contents : 'This is a pack of 6 pieces of meat pie',
         image: 'https://res.cloudinary.com/djvjxp',
-        title: 'Meat Pie'
+        title: 'Package 3'
     },
 
     {
         id: 4,
         category: 'Pack',
-        price: 2000,
+        price: 5000,
         contents : 'This is a pack of 6 pieces of meat pie',
         image: 'https://res.cloudinary.com/djvjxp',
-        title: 'Meat Pie'
+        title: 'Package 4'
     },
 
     {
         id: 5,
         category: 'Pack',
-        price: 2000,
+        price: 7000,
         contents : 'This is a pack of 6 pieces of meat pie',
         image: 'https://res.cloudinary.com/djvjxp',
-        title: 'Meat Pie'
+        title: 'Package 5'
     },
 
     {
@@ -52,7 +52,7 @@ const Products = [
         price: 2000,
         contents : 'This is a pack of 6 pieces of meat pie',
         image: 'https://res.cloudinary.com/djvjxp',
-        title: 'Meat Pie'
+        title: 'Platter 1'
     },
 
     {
@@ -61,7 +61,7 @@ const Products = [
         price: 2000,
         contents : 'This is a pack of 6 pieces of meat pie',
         image: 'https://res.cloudinary.com/djvjxp',
-        title: 'Meat Pie'
+        title: 'Platter 2'
     },
 
     {
@@ -70,7 +70,7 @@ const Products = [
         price: 2000,
         contents : 'This is a pack of 6 pieces of meat pie',
         image: 'https://res.cloudinary.com/djvjxp',
-        title: 'Meat Pie'
+        title: 'Platter 3'
     },
 
     {
@@ -79,7 +79,7 @@ const Products = [
         price: 2000,
         contents : 'This is a pack of 6 pieces of meat pie',
         image: 'https://res.cloudinary.com/djvjxp',
-        title: 'Meat Pie'
+        title: 'Platter 4'
     },
 
     {
@@ -89,7 +89,7 @@ const Products = [
         price: 2000,
         contents : 'This is a pack of 6 pieces of meat pie',
         image: 'https://res.cloudinary.com/djvjxp',
-        title: 'Meat Pie'
+        title: 'Beef'
     },
     {
         id: 11,
@@ -98,7 +98,7 @@ const Products = [
         price: 2000,
         contents : 'This is a pack of 6 pieces of meat pie',
         image: 'https://res.cloudinary.com/djvjxp',
-        title: 'Meat Pie'
+        title: 'Gizzard'
     },
 
     {
@@ -108,7 +108,7 @@ const Products = [
         price: 2000,
         contents : 'This is a pack of 6 pieces of meat pie',
         image: 'https://res.cloudinary.com/djvjxp',
-        title: 'Meat Pie'
+        title: 'Snail'
     },
 
     {
@@ -118,7 +118,7 @@ const Products = [
         price: 2000,
         contents : 'This is a pack of 6 pieces of meat pie',
         image: 'https://res.cloudinary.com/djvjxp',
-        title: 'Meat Pie'
+        title: 'Chicken'
     },
 
     {
@@ -128,7 +128,7 @@ const Products = [
         price: 2000,
         contents : 'This is a pack of 6 pieces of meat pie',
         image: 'https://res.cloudinary.com/djvjxp',
-        title: 'Meat Pie'
+        title: 'Turkey'
     }
 ]
 
