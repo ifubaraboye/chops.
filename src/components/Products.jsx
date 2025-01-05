@@ -85,11 +85,51 @@ const Products = [
     {
         id: 10,
         category: 'Protein',
+        type: 'Kebabs',
         price: 2000,
         contents : 'This is a pack of 6 pieces of meat pie',
         image: 'https://res.cloudinary.com/djvjxp',
         title: 'Meat Pie'
     },
+    {
+        id: 11,
+        category: 'Protein',
+        type: 'Kebabs',
+        price: 2000,
+        contents : 'This is a pack of 6 pieces of meat pie',
+        image: 'https://res.cloudinary.com/djvjxp',
+        title: 'Meat Pie'
+    },
+
+    {
+        id: 12,
+        category: 'Protein',
+        type: 'Kebabs',
+        price: 2000,
+        contents : 'This is a pack of 6 pieces of meat pie',
+        image: 'https://res.cloudinary.com/djvjxp',
+        title: 'Meat Pie'
+    },
+
+    {
+        id: 13,
+        category: 'Protein',
+        type: 'Chicken',
+        price: 2000,
+        contents : 'This is a pack of 6 pieces of meat pie',
+        image: 'https://res.cloudinary.com/djvjxp',
+        title: 'Meat Pie'
+    },
+
+    {
+        id: 14,
+        category: 'Protein',
+        type: 'Turkey',
+        price: 2000,
+        contents : 'This is a pack of 6 pieces of meat pie',
+        image: 'https://res.cloudinary.com/djvjxp',
+        title: 'Meat Pie'
+    }
 ]
 
 
