@@ -2,6 +2,7 @@ import React from "react";
 import { Navbar } from "../components/Navbar";
 import Hero from '../assets/hero.png'
 import './Home.css'
+import  ProductList  from "../components/ProductList";
 
 export function Home() {
     return (
@@ -21,6 +22,10 @@ export function Home() {
           <div>
             <img src={Hero}  alt="" width={500}></img>
           </div>
+        </div>
+
+        <div>
+          <ProductList />
         </div>
       </div>
     );
