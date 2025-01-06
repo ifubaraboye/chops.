@@ -30,7 +30,7 @@ export function Home() {
           <div className="flex justify-center items-center pt-10 px-auto">
             <ul className="flex gap-x-10 text-gray-500 font-semibold">
               <div>
-                <li><Link to='#packs'>PACKS</Link></li>
+                <li className="text-black"><Link to='#packs'>PACKS</Link></li>
                 <p className="border-[2px] border-[#E63946] rounded-lg"></p>
               </div>
               <div>

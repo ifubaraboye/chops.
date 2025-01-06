@@ -11,7 +11,7 @@ export const Navbar = () => {
         </div>
         
         <div>
-            <ul className='flex gap-x-14'>
+            <ul className='flex gap-x-14 font-semibold'>
                 <li className=''><Link to='/'>Home</Link></li>
                 <li className='text-gray-500'><Link to='/gallery'>Gallery</Link></li>
                 <li className='text-gray-500'><Link to='/about'>About</Link></li>
