@@ -14,9 +14,9 @@ import Rice from '../assets/plat.jpg'
 
 export function Home() {
     return (
-      <div className="bg-[#eeeeee]">
+      <div className="bg-[#eeeeee] px-auto mx-auto">
         <Navbar />
-        <div className="flex justify-center gap-x-28 items-center mt-10 px-auto">
+        <div className="flex justify-center gap-x-28 items-center mt-10 px-auto ">
           <div className="leading-tight">
             <p className="text-[100px] font-bold text-zinc-800" id="enjoy">ENJOY YOUR FOOD</p>
             <p className="text-[100px] font-bold text-gray-800" id="naija">THE NAIJA WAY</p>
@@ -89,7 +89,7 @@ export function Home() {
               <p className="text-[#E63946]">GALLERIES</p>
             </div>
 
-            <div className="grid grid-cols-3 grid-rows-2 gap-x-7 gap-y-7 py-6">
+            <div className="grid grid-cols-3 grid-rows-2 gap-x-7 gap-y-7 py-6 ">
               <img src={Chicken} alt="" className="rounded-md"></img>
               <img src={Closeup} alt="" className="rounded-md"></img>
               <img src={Puff} alt="" className="rounded-md"></img>
@@ -97,7 +97,7 @@ export function Home() {
               <img src={Heron} alt="" className="rounded-md"></img>
               <img src={Rice} alt="" className="rounded-md"></img>
             </div>
-            <button className="mt-9 border rounded-md p-3 font-semibold bg-[#E63946] text-white border-none"><Link to='/gallery'>MORE GALLERIES</Link></button>
+            <button className="mt-1 border rounded-md p-3 font-semibold bg-[#E63946] text-white border-none"><Link to='/gallery'>MORE GALLERIES</Link></button>
           </div>
         </div>
       </div>
