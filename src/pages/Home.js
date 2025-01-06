@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 export function Home() {
     return (
-      <div>
+      <div className="bg-[#eeeeee]">
         <Navbar />
         <div className="flex justify-center gap-x-28 items-center mt-10 px-auto">
           <div className="leading-tight">
@@ -44,10 +44,45 @@ export function Home() {
             </ul>
           </div>
 
-          <div id="pack" className="pt-12"><ProductList Products={Products} category='Pack' /></div>
+          <div id="pack" className="pt-12 pb-24"><ProductList Products={Products} category='Pack' /></div>
           {/* <div id="platter" className=""><ProductList Products={Products} category='Platter' /></div> */}
           {/* <div id="protein" className=""><ProductList Products={Products} category='Protein' /></div> */}
           
+        </div>
+
+        <div className="bg-white py-20 px-40 flex gap-x-44">
+          <div>
+            <p className="font-semibold text-gray-500 tracking-wide">TESTIMONIALS</p>
+            <div id="testimonial" className="flex text-[55px] leading-[60px]">
+              <p>SATIFIED</p>
+              <p className="text-[#E63946]">CUSTOMERS</p>
+            </div>
+            <div className="pt-6">
+                <div className="w-[500px] leading-5 font-semibold text-gray-500 pb-4">
+                  <p className="text-[18px] ">"Wow, just wow! This meal was an explosion of flavor. The delivery was incredibly fast and the packaging was top-notch. Will definitely be a repeat customer!"</p>
+                  <p className="text-right pr-7">-FlavorFanatic</p>
+                </div>
+                <div className="w-[500px] leading-5 font-semibold text-gray-500 pb-4">
+                  <p className="text-[18px] ">"Absolutely delighted with my order. The portions were generous, the quality was exceptional, and the delivery driver was friendly and efficient. 10/10!"</p>
+                  <p className="text-right pr-5">-HappyHungry</p>
+                </div>
+                <div className="w-[500px] leading-5 font-semibold text-gray-500 pb-4">
+                  <p className="text-[18px] ">"This was a truly satisfying meal. The flavors were perfectly balanced and the presentation was beautiful. I'm already planning my next order."</p>
+                  <p className="text-right pr-4">-DelightedDiner</p>
+                </div>
+                <div className="w-[500px] leading-5 font-semibold text-gray-500">
+                  <p className="text-[18px] ">"I'm a happy customer! The food was delicious, the delivery was on time, and the overall experience was fantastic. Will definitely order from here again."</p>
+                  <p className="text-right pr-4">-SatisfiedSarah</p>
+                </div>
+              </div>
+          </div>
+          <div>
+          <p className="font-semibold text-gray-500 tracking-wide">GALLERIES</p>
+            <div id="testimonial" className="flex text-[55px] leading-[60px]">
+              <p>PHOTO</p>
+              <p className="text-[#E63946]">GALLERIES</p>
+              </div>
+          </div>
         </div>
       </div>
     );

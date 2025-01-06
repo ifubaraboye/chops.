@@ -3,7 +3,7 @@ import React from 'react'
 
 const ProductCard = ({product}) => {
   return (
-    <div className='grid items-center p-3 border-2 hover:border-[#E63946]'>
+    <div className='grid items-center p-3 border-[3px] hover:border-[#E63946]'>
         <div>
             <img className='' src={product.image} alt="" width={200} />
         </div>
