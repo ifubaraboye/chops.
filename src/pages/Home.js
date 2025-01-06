@@ -5,6 +5,12 @@ import './Home.css'
 import  ProductList  from "../components/ProductList";
 import Products from "../components/Products";
 import { Link } from "react-router-dom";
+import Chicken from '../assets/chicken.jpg'
+import Closeup from '../assets/closeup.jpg'
+import Puff from '../assets/puff.jpg'
+import Sauce from '../assets/chicken2.jpg'
+import Heron from '../assets/hero2.jpg'
+import Rice from '../assets/plat.jpg'
 
 export function Home() {
     return (
@@ -81,7 +87,17 @@ export function Home() {
             <div id="testimonial" className="flex text-[55px] leading-[60px]">
               <p>PHOTO</p>
               <p className="text-[#E63946]">GALLERIES</p>
-              </div>
+            </div>
+
+            <div className="grid grid-cols-3 grid-rows-2 gap-x-7 gap-y-7 py-6">
+              <img src={Chicken} alt="" className="rounded-md"></img>
+              <img src={Closeup} alt="" className="rounded-md"></img>
+              <img src={Puff} alt="" className="rounded-md"></img>
+              <img src={Sauce} alt="" className="rounded-md"></img>
+              <img src={Heron} alt="" className="rounded-md"></img>
+              <img src={Rice} alt="" className="rounded-md"></img>
+            </div>
+            <button className="mt-9 border rounded-md p-3 font-semibold bg-[#E63946] text-white border-none"><Link to='/gallery'>MORE GALLERIES</Link></button>
           </div>
         </div>
       </div>
