@@ -12,6 +12,8 @@ import Sauce from '../assets/chicken2.jpg'
 import Heron from '../assets/hero2.jpg'
 import Rice from '../assets/plat.jpg'
 
+//Work in progress
+
 export function Home() {
     return (
       <div className="bg-[#eeeeee] px-auto mx-auto">
