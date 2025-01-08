@@ -67,7 +67,7 @@ const Products = [
         category: 'Platter',
         price: 18000,
         contents : 'This is a pack of 6 pieces of meat pie',
-       image: Platter,
+        image: Platter,
         title: 'Platter 2'
     },
 
@@ -98,6 +98,7 @@ const Products = [
        image: Gizzard,
         title: 'Beef'
     },
+
     {
         id: 11,
         category: 'Protein',
