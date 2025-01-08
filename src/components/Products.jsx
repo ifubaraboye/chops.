@@ -1,6 +1,7 @@
 
 // import ChopsTemp from '../assets/placeholder.jpg'
 import Template from '../assets/placeholder3.jpg'   
+import Platter from '../assets/plat.jpg'
 
 const Products = [
     {
@@ -53,7 +54,7 @@ const Products = [
         category: 'Platter',
         price: 16000,
         contents : 'This is a pack of 6 pieces of meat pie',
-       // image: 'https://res.cloudinary.com/djvjxp',
+        image: Platter,
         title: 'Platter 1'
     },
 
@@ -62,7 +63,7 @@ const Products = [
         category: 'Platter',
         price: 18000,
         contents : 'This is a pack of 6 pieces of meat pie',
-       // image: 'https://res.cloudinary.com/djvjxp',
+       image: Platter,
         title: 'Platter 2'
     },
 
@@ -71,7 +72,7 @@ const Products = [
         category: 'Platter',
         price: 20000,
         contents : 'This is a pack of 6 pieces of meat pie',
-       // image: 'https://res.cloudinary.com/djvjxp',
+        image: Platter,
         title: 'Platter 3'
     },
 
@@ -80,7 +81,7 @@ const Products = [
         category: 'Platter',
         price: 25000,
         contents : 'This is a pack of 6 pieces of meat pie',
-       // image: 'https://res.cloudinary.com/djvjxp',
+        image : Platter,
         title: 'Platter 4'
     },
 
