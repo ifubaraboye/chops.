@@ -2,6 +2,10 @@
 // import ChopsTemp from '../assets/placeholder.jpg'
 import Template from '../assets/placeholder3.jpg'   
 import Platter from '../assets/plat.jpg'
+import Chicken from '../assets/chicken.jpg'
+import Snail from '../assets/snail2.jpg'
+import Turkey from '../assets/chicken2.jpg'
+import Gizzard from '../assets/gizzard.jpg'
 
 const Products = [
     {
@@ -91,7 +95,7 @@ const Products = [
         type: 'Kebabs',
         price: 1000,
         contents : 'This is a pack of 6 pieces of meat pie',
-       // image: 'https://res.cloudinary.com/djvjxp',
+       image: Gizzard,
         title: 'Beef'
     },
     {
@@ -100,7 +104,7 @@ const Products = [
         type: 'Kebabs',
         price: 2500,
         contents : 'This is a pack of 6 pieces of meat pie',
-       // image: 'https://res.cloudinary.com/djvjxp',
+       image: Gizzard,
         title: 'Gizzard'
     },
 
@@ -110,7 +114,7 @@ const Products = [
         type: 'Kebabs',
         price: 3000,
         contents : 'This is a pack of 6 pieces of meat pie',
-       // image: 'https://res.cloudinary.com/djvjxp',
+       image: Snail,
         title: 'Snail'
     },
 
@@ -120,7 +124,7 @@ const Products = [
         type: 'Chicken',
         price: 3000,
         contents : 'This is a pack of 6 pieces of meat pie',
-       // image: 'https://res.cloudinary.com/djvjxp',
+       image: Chicken,
         title: 'Chicken'
     },
 
@@ -130,7 +134,7 @@ const Products = [
         type: 'Turkey',
         price: 35000,
         contents : 'This is a pack of 6 pieces of meat pie',
-       // image: 'https://res.cloudinary.com/djvjxp',
+       image: Turkey,
         title: 'Turkey'
     }
 ]
