@@ -11,10 +11,15 @@ import Puff from '../assets/puff.jpg'
 import Sauce from '../assets/chicken2.jpg'
 import Heron from '../assets/hero2.jpg'
 import Rice from '../assets/plat.jpg'
+import { useState } from "react";
 
 //Work in progress
 
 export function Home() {
+  const [selectedCategory, setSelectedCategory] = useState('Pack')
+  const categories = ['Pack', 'Platter', 'Protein']
+
+
     return (
       <div className="bg-[#eeeeee] px-auto mx-auto">
         <Navbar />
@@ -39,20 +44,20 @@ export function Home() {
             <ul className="flex gap-x-10 text-gray-500 font-semibold">
               <div>
                 <li className="text-black"><Link to='#packs'>PACKS</Link></li>
-                <p className="border-[2px] border-[#E63946] rounded-lg"></p>
+                {/* <p className="border-[2px] border-[#E63946] rounded-lg"></p> */}
               </div>
               <div>
                 <li><Link to='#platter'>PLATTERS</Link></li>
-                <p className="border-[2px] border-[#E63946] rounded-lg"></p>
+                {/* <p className="border-[2px] border-[#E63946] rounded-lg"></p> */}
               </div>
               <div>
                 <li><Link to='#protein'>PROTEIN</Link></li>
-                <p className="border-[2px] border-[#E63946] rounded-lg"></p>
+                {/* <p className="border-[2px] border-[#E63946] rounded-lg"></p> */}
               </div>
             </ul>
           </div>
 
-          <div id="pack" className="pt-12 pb-24"><ProductList Products={Products} category='Pack' /></div>
+          <div id="pack" className="pt-12 pb-24"><ProductList Products={Products} category={selectedCategory} /></div>
           {/* <div id="platter" className=""><ProductList Products={Products} category='Platter' /></div> */}
           {/* <div id="protein" className=""><ProductList Products={Products} category='Protein' /></div> */}
           
