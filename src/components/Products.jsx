@@ -21,7 +21,7 @@ const Products = [
         id: 2,
         category: 'Pack',
         price: 2500,
-        contents : 'This is a pack of 6 pieces of meat pie',
+        contents : 'Fishy',
         image: Template,
         title: 'Package 2'
     },
