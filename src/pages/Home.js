@@ -42,18 +42,9 @@ export function Home() {
         <div className="pt-20 pb-5">
           <div className="flex justify-center items-center pt-10 px-auto">
             <ul className="flex gap-x-10 text-gray-500 font-semibold">
-              <div>
-                <li className="text-black"><Link to='#packs'>PACKS</Link></li>
-                {/* <p className="border-[2px] border-[#E63946] rounded-lg"></p> */}
-              </div>
-              <div>
-                <li><Link to='#platter'>PLATTERS</Link></li>
-                {/* <p className="border-[2px] border-[#E63946] rounded-lg"></p> */}
-              </div>
-              <div>
-                <li><Link to='#protein'>PROTEIN</Link></li>
-                {/* <p className="border-[2px] border-[#E63946] rounded-lg"></p> */}
-              </div>
+              {categories.map( (category) => (
+                <li key={category} onClick={ () => setSelectedCategory(category)} className={`cursor-pointer ${selectedCategory === category ? "text-black" : ""}`}>{category.toUpperCase()}</li>
+              ))}
             </ul>
           </div>
 
