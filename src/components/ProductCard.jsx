@@ -12,12 +12,10 @@ const ProductCard = ({product}) => {
   const handleShow = () => setShowModal(true)
   const handleClose = () => setShowModal(false)
 
-  // function buyNow() {
-  //   buy.addEventListener('click', ({product}) => {
-  //     // <Modal />
-  //     alert('Hello')
-  //   })
-  // } 
+  const handleAddToCart = () => {
+    addToCart(product, quantity);
+    alert(`${quantity} of ${product.title} added to cart!`);
+  }
 
   return (
     <div className='grid items-center p-3 border-[3px] hover:border-[#E63946]'>
@@ -55,7 +53,7 @@ const ProductCard = ({product}) => {
 
           <Modal.Footer className='flex justify-center gap-x-10'>
             <Button variant="secondary" onClick={handleClose} className='border p-3 rounded-md font-semibold '>Close</Button>
-            <Button variant="primary" className='border p-3 rounded-md font-semibold bg-[#E63946] text-white outline-none'>Add To Cart</Button>
+            <Button variant="primary" className='border p-3 rounded-md font-semibold bg-[#E63946] text-white outline-none' onClick={handleAddToCart}>Add To Cart</Button>
           </Modal.Footer>
         </Modal>
         </div>

@@ -18,6 +18,7 @@ export const Navbar = () => {
                 <li className='text-gray-500'><Link to='/contact'>Contact</Link></li>
             </ul>
         </div>
+        <li className='text-gray-500'><Link to='/cart'>Cart</Link></li>
         <button className='border p-3 rounded-lg bg-[#E63946] outline-none text-white font-bold'>Place an Order</button>
     </div>
   )
