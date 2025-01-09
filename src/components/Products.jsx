@@ -12,7 +12,7 @@ const Products = [
         id: 1,
         category: 'Pack',
         price: 1500,
-        contents : 'This is a pack of 6 pieces of meat pie',
+        contents : '5 Springrolls \n5 Samosas \n7 Puff-Puff \n1 Beef',
         image: Template,
         title: 'Package 1'
     },
@@ -21,7 +21,7 @@ const Products = [
         id: 2,
         category: 'Pack',
         price: 2500,
-        contents : 'Fishy',
+        contents : '4 Springrolls \n7 Samosas \n7 Puff-Puff \n3 Beef',
         image: Template,
         title: 'Package 2'
     },
@@ -30,7 +30,7 @@ const Products = [
         id: 3,
         category: 'Pack',
         price: 3500,
-        contents : 'This is a pack of 6 pieces of meat pie',
+        contents : '5 Springrolls \n5 Samosas \n7 Puff-Puff \n1 Beef',
         image: Template,
         title: 'Package 3'
     },
@@ -39,7 +39,7 @@ const Products = [
         id: 4,
         category: 'Pack',
         price: 5000,
-        contents : 'This is a pack of 6 pieces of meat pie',
+        contents : '5 Springrolls \n5 Samosas \n7 Puff-Puff \n1 Beef',
         image: Template,
         title: 'Package 4'
     },
@@ -48,7 +48,7 @@ const Products = [
         id: 5,
         category: 'Pack',
         price: 7000,
-        contents : 'This is a pack of 6 pieces of meat pie',
+        contents : '5 Springrolls \n5 Samosas \n7 Puff-Puffs \n1 Beef',
         image: Template,
         title: 'Package 5'
     },
@@ -57,7 +57,7 @@ const Products = [
         id: 6,
         category: 'Platter',
         price: 16000,
-        contents : 'This is a pack of 6 pieces of meat pie',
+        contents : '20 Springrolls \n20 Samosas \n30 Puff-Puffs \n10 Beefs',
         image: Platter,
         title: 'Platter 1'
     },
@@ -66,7 +66,7 @@ const Products = [
         id: 7,
         category: 'Platter',
         price: 18000,
-        contents : 'This is a pack of 6 pieces of meat pie',
+        contents : '20 Springrolls \n20 Samosas \n30 Puff-Puffs \n10 Beefs \n5 Chickens',
         image: Platter,
         title: 'Platter 2'
     },
@@ -75,7 +75,7 @@ const Products = [
         id: 8,
         category: 'Platter',
         price: 20000,
-        contents : 'This is a pack of 6 pieces of meat pie',
+        contents : '20 Springrolls \n20 Samosas \n30 Puff-Puffs \n10 Beefs \n5 Turkeys',
         image: Platter,
         title: 'Platter 3'
     },
@@ -84,7 +84,7 @@ const Products = [
         id: 9,
         category: 'Platter',
         price: 25000,
-        contents : 'This is a pack of 6 pieces of meat pie',
+        contents : '20 Springrolls \n20 Samosas \n30 Puff-Puffs \n10 Beefs \n5 Chickens \n5 Turkeys \n7 Snails \n10 Gizzards',
         image : Platter,
         title: 'Platter 4'
     },
@@ -95,7 +95,7 @@ const Products = [
         type: 'Kebabs',
         price: 1000,
         contents : 'This is a pack of 6 pieces of meat pie',
-       image: Gizzard,
+        image: Gizzard,
         title: 'Beef'
     },
 
