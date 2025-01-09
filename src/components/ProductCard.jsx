@@ -30,14 +30,14 @@ const ProductCard = ({product}) => {
           <button id='buynow' className='border-none py-2 mb-2 w-[120px] bg-[#E63946] text-white font-semibold' onClick={handleShow}>Preview</button>
         </div>
         
-        <div className='top-3'>
-          <Modal show={showModal} onHide={handleClose} className='border w-[450px] rounded-lg justify-center shadow-lg'>
-          <Modal.Header closeButton>
+        <div className=''>
+          <Modal show={showModal} onHide={handleClose} className='border w-[450px] rounded-lg justify-center shadow-lg absolute top-[900px] mx-[525px] z-10 bg-white py-5'>
+          <Modal.Header closeButton className='pl-4'>
             <Modal.Title className='text-[50px]'>{product.title}</Modal.Title>
             <Modal.Title className='text-[20px]'>Contents</Modal.Title>
           </Modal.Header>
 
-          <Modal.Body className='text-center'>
+          <Modal.Body className='text-center py-5'>
             {product.contents}
           </Modal.Body>
 

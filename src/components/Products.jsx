@@ -125,7 +125,7 @@ const Products = [
         type: 'Chicken',
         price: 3000,
         contents : 'This is a pack of 6 pieces of meat pie',
-       image: Chicken,
+       image: Snail,
         title: 'Chicken'
     },
 
@@ -135,7 +135,7 @@ const Products = [
         type: 'Turkey',
         price: 35000,
         contents : 'This is a pack of 6 pieces of meat pie',
-       image: Turkey,
+       image: Snail,
         title: 'Turkey'
     }
 ]
