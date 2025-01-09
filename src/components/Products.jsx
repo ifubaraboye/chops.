@@ -6,8 +6,10 @@ import Chicken from '../assets/chicken.jpg'
 import Snail from '../assets/snail2.jpg'
 import Turkey from '../assets/chicken2.jpg'
 import Gizzard from '../assets/gizzard.jpg'
+import { useState } from 'react'
 
-const Products = [
+let Products = [
+    
     {
         id: 1,
         category: 'Pack',
