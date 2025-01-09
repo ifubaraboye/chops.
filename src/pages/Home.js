@@ -12,7 +12,7 @@ import Sauce from '../assets/chicken2.jpg'
 import Heron from '../assets/hero2.jpg'
 import Rice from '../assets/plat.jpg'
 import { useState } from "react";
-import { Modal } from "react-bootstrap";
+
 //Work in progress
 
 export function Home() {
@@ -32,14 +32,14 @@ export function Home() {
               <p className="text-gray-500 font-semibold">treats, every bite tells a story. Dive into a world where taste meets</p>
               <p className="text-gray-500 font-semibold">traditions that unite, and dishes that delight your senses.</p>
             </div>
-            <button className='border p-3 rounded-lg bg-[#E63946] outline-none text-white font-bold'>Place an Order</button>
+            <button className='border p-3 rounded-lg bg-[#E63946] outline-none text-white font-bold' ><Link to="#buysection">Place an Order</Link></button>
           </div>
           <div>
             <img src={Hero}  alt="" width={500}></img>
           </div>
         </div>
 
-        <div className="pt-20 pb-5">
+        <div id="buysection" className="pt-20 pb-5">
           <div className="flex justify-center items-center pt-10 px-auto">
             <ul className="flex gap-x-10 text-gray-500 font-semibold">
               {categories.map( (category) => (
