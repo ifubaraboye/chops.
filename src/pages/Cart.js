@@ -1,10 +1,12 @@
 import React from "react";
 import { useCart } from "../components/CartContext";
+import { Navbar } from "../components/Navbar";
 
 export function Cart() {
     const {cart, removeFromCart, updateQuantity, totalPrice} = useCart()
-    return (
+    return ( 
         <div>
+            <Navbar />
             <h2>Shopping Cart</h2>
                 {cart.length === 0 ? (
                     <p>Your cart is empty.</p>

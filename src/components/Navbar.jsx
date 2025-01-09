@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { FaCartShopping } from 'react-icons/fa6'
 
 
 export const Navbar = () => {
@@ -11,15 +12,19 @@ export const Navbar = () => {
         </div>
         
         <div>
-            <ul className='flex gap-x-14 font-semibold'>
+            <ul className='flex ml-16 gap-x-14 font-semibold'>
                 <li className=''><Link to='/'>Home</Link></li>
                 <li className='text-gray-500'><Link to='/gallery'>Gallery</Link></li>
                 <li className='text-gray-500'><Link to='/about'>About</Link></li>
                 <li className='text-gray-500'><Link to='/contact'>Contact</Link></li>
             </ul>
         </div>
-        <li className='text-gray-500'><Link to='/cart'>Cart</Link></li>
+
+        <div className='flex items-center gap-x-7'>
+        <li className='text-gray-500 list-none'><Link to='/cart'><FaCartShopping size={20}/></Link></li>
         <button className='border p-3 rounded-lg bg-[#E63946] outline-none text-white font-bold'>Place an Order</button>
+
+        </div>
     </div>
   )
 }
