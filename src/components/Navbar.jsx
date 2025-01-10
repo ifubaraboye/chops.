@@ -22,7 +22,7 @@ export const Navbar = () => {
 
         <div className='flex items-center gap-x-7'>
         <li className='text-gray-500 list-none'><Link to='/cart'><FaCartShopping size={20}/></Link></li>
-        <button className='border p-3 rounded-lg bg-[#E63946] outline-none text-white font-bold'>Place an Order</button>
+        <button className='border p-3 rounded-lg bg-[#E63946] outline-none text-white font-bold'><a href="#buysection">Place an Order</a></button>
 
         </div>
     </div>

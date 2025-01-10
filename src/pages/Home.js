@@ -32,7 +32,7 @@ export function Home() {
               <p className="text-gray-500 font-semibold">treats, every bite tells a story. Dive into a world where taste meets</p>
               <p className="text-gray-500 font-semibold">traditions that unite, and dishes that delight your senses.</p>
             </div>
-            <button className='border p-3 rounded-lg bg-[#E63946] outline-none text-white font-bold' ><Link to="#buysection">Place an Order</Link></button>
+            <button className='border p-3 rounded-lg bg-[#E63946] outline-none text-white font-bold' ><a href="#buysection">Place an Order</a></button>
           </div>
           <div>
             <img src={Hero}  alt="" width={500}></img>
