@@ -40,3 +40,8 @@
 .test {
   font-family: "Amatic SC", serif;
 }
+
+::selection {
+  background-color: #E63946;
+  color: white;
+}
