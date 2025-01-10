@@ -1,15 +1,21 @@
 import React from "react";
 import { useCart } from "../components/CartContext";
 import { Navbar } from "../components/Navbar";
+import Empty from '../assets/empty.png'
+
 
 export function Cart() {
     const {cart, removeFromCart, updateQuantity, totalPrice} = useCart()
     return ( 
         <div>
             <Navbar />
-            <h2>Shopping Cart</h2>
+            <h2 className="text-center text-[50px] font-semibold mb-24">Shopping Cart</h2>
                 {cart.length === 0 ? (
-                    <p>Your cart is empty.</p>
+                    <div className="grid justify-center">
+                        <img src={Empty} width={100}></img>
+                        <p className="py-3 font-semibold">Your Cart Is Empty</p>
+                        
+                    </div>
             ) : (
         cart.map((item) => (
             <div key={item.id} className="border p-3 mb-3">
