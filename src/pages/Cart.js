@@ -1,16 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import { useCart } from "../components/CartContext";
 import { Navbar } from "../components/Navbar";
 import Empty from '../assets/empty.png';
+import Modal from 'react-bootstrap/Modal';
+import Button from 'react-bootstrap/Button';
 
 export function Cart() {
-    // Destructure setCart from useCart
     const { cart, setCart, removeFromCart, updateQuantity, totalPrice } = useCart();
+    const [show, setShow] = useState(false);
 
+    const handleClose = () => setShow(false);
+    
     const checkout = () => {
-        // Clear the cart using setCart
-        setCart([]);
-        alert('Thank you for your purchase!');
+        setShow(true);  // Show modal first
+        setCart([]); // Then clear cart
     };
 
     return ( 
@@ -18,6 +21,26 @@ export function Cart() {
             <Navbar />
             <h2 className="text-center text-[50px] font-semibold mb-24">Shopping Cart</h2>
             
+            <Modal 
+                show={show} 
+                onHide={handleClose}
+                centered // Centers the modal vertically
+                aria-labelledby="checkout-modal"
+                className='border w-[450px] rounded-lg justify-center shadow-lg absolute top-[300px] mx-[525px] z-10 bg-white py-5'
+            >
+                <Modal.Header closeButton>
+                    <Modal.Title id="checkout-modal" className="font-semibold text-center text-[50px] px-9">Order Confirmation</Modal.Title>
+                </Modal.Header>
+                <Modal.Body className="text-center">
+                    Your order has been processed successfully!
+                </Modal.Body>
+                <Modal.Footer className="grid justify-center">
+                    <Button className="border my-4 p-3 rounded-lg font-semibold bg-[#E63946] text-white outline-none" variant="secondary" onClick={handleClose}>
+                        Close
+                    </Button>
+                </Modal.Footer>
+            </Modal>
+
             {cart.length === 0 ? (
                 <div className="grid justify-center">
                     <img src={Empty} width={100} alt="Cart"></img>
