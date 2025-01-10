@@ -10,7 +10,7 @@ import Closeup from '../assets/closeup.jpg'
 import Puff from '../assets/puff.jpg'
 import Sauce from '../assets/chicken2.jpg'
 import Heron from '../assets/hero2.jpg'
-import Rice from '../assets/plat.jpg'
+import Slap from '../assets/snail.jpg'
 import { useState } from "react";
 
 //Work in progress
@@ -93,7 +93,7 @@ export function Home() {
               <img src={Puff} alt="" className="rounded-md"></img>
               <img src={Sauce} alt="" className="rounded-md"></img>
               <img src={Heron} alt="" className="rounded-md"></img>
-              <img src={Rice} alt="" className="rounded-md"></img>
+              <img src={Slap} alt="" className="rounded-md"></img>
             </div>
             <button className="mt-1 border rounded-md p-3 font-semibold bg-[#E63946] text-white border-none"><Link to='/gallery'>MORE GALLERIES</Link></button>
           </div>
