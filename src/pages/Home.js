@@ -12,6 +12,7 @@ import Sauce from '../assets/chicken2.jpg'
 import Heron from '../assets/hero2.jpg'
 import Slap from '../assets/snail.jpg'
 import { useState } from "react";
+// import Alert from '../components/Alert'
 
 //Work in progress
 

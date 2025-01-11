@@ -3,18 +3,25 @@ import Modal from 'react-bootstrap/Modal';
 import  Button  from 'react-bootstrap/Button';
 import { useState } from 'react';
 import { useCart } from './CartContext';
+import { Alert } from 'react-bootstrap';
 
 const ProductCard = ({product}) => {
   const [showModal, setShowModal] = useState(false)
   const [quantity, setQuantity] = useState(1)
   const {addToCart} = useCart()
+  const [show, setShow] = useState(false)
 
   const handleShow = () => setShowModal(true)
   const handleClose = () => setShowModal(false)
 
+
   const handleAddToCart = () => {
     addToCart(product, quantity);
-    alert(`${quantity} of ${product.title} added to cart!`);
+    // alert(`${quantity} of ${product.title} added to cart!`);
+    setShow(true)
+    setTimeout( () => {
+      setShow(false);
+    }, 7000)
   }
 
   return (
@@ -57,7 +64,19 @@ const ProductCard = ({product}) => {
           </Modal.Footer>
         </Modal>
         </div>
-
+      
+        <div className='fixed top-5 right-5 z-50'> {/* Fixed positioning for alert */}
+        <Alert 
+          show={show} 
+          variant="success" 
+          onClose={() => setShow(false)} 
+          dismissible
+          className='border pb-4 px-3 rounded-lg bg-white shadow-md '
+        >
+          <Alert.Heading> Item Added to Cart!</Alert.Heading>
+          {/* <p>{quantity} of {product.title} added to cart successfully!</p> */}
+        </Alert>
+      </div>
     </div>
   )
 }
