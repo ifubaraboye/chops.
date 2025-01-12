@@ -44,7 +44,7 @@ export function Home() {
           <div className="flex justify-center items-center pt-10 px-auto">
             <ul className="flex gap-x-10 text-gray-500 font-semibold">
               {categories.map( (category) => (
-                <li key={category} onClick={ () => setSelectedCategory(category)} className={`cursor-pointer ${selectedCategory === category ? "text-black border-b-4 rounded-lg border-[#E63946]" : ""}`}>{category.toUpperCase()}</li>
+                <li key={category} onClick={ () => setSelectedCategory(category)} className={`cursor-pointer ${selectedCategory === category ? "text-black border-b-4  border-[#E63946]" : ""}`}>{category.toUpperCase()}</li>
               ))}
             </ul>
           </div>
