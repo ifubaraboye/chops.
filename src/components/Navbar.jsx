@@ -14,9 +14,9 @@ export const Navbar = () => {
         <div>
             <ul className='flex ml-16 gap-x-14 font-semibold'>
                 <li className=''><Link to='/'>Home</Link></li>
-                <li className='text-gray-500'><Link to='/gallery'>Gallery</Link></li>
-                <li className='text-gray-500'><Link to='/about'>About</Link></li>
-                <li className='text-gray-500'><Link to='/contact'>Contact</Link></li>
+                <li className=''><Link to='/gallery'>Gallery</Link></li>
+                <li className=''><Link to='/about'>About</Link></li>
+                <li className=''><Link to='/contact'>Contact</Link></li>
             </ul>
         </div>
 
