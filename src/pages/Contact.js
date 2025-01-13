@@ -7,7 +7,7 @@ export function Contact() {
       <div className="">
         <Navbar />
         <div className="px-8">
-          <h1 className="text-[50px] font-semibold mb-6">Contact Us</h1>
+          <h1 className="text-[50px] font-semibold mb-6 flex">Contact Us <span className="text-red-500">.</span> </h1>
           
           <div>
             <form>

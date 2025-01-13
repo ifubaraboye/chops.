@@ -11,7 +11,28 @@ export function Gallery() {
   return (
     <div>
       <Navbar />
-      <h1>Gallery</h1>
+      <div className="px-8">
+        <h1 className="text-[50px] font-bold flex">Gallery <span className="text-red-500">.</span> </h1>
+
+        <div className="grid grid-cols-5 gap-x-5 gap-y-5 flex-wrap pb-20">
+          <img src={Chicken} alt="chicken"></img>
+          <img src={Chicken} alt="chcken"></img>
+          <img src={Closeup} alt="closeup"></img>
+          <img src={Heron} alt="heron"></img>
+          <img src={Chicken} alt="heron"></img>
+          <img src={Sauce} alt="sauce"></img>
+          <img src={Chicken} alt="chicken"></img>
+          <img src={Slap} alt="slap"></img>
+          <img src={Chicken} alt="chicken"></img>
+          <img src={Chicken} alt="chicken"></img>
+          <img src={Puff} alt="puff"></img>
+          <img src={Chicken} alt="chicken"></img>
+          <img src={Chicken} alt="chicken"></img>
+          <img src={Heron} alt="heron"></img>
+          <img src={Chicken} alt="chicken"></img>
+
+        </div>
+      </div>
     </div>
   );
 }
