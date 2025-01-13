@@ -12,7 +12,7 @@ export const Navbar = () => {
         </div>
         
         <div>
-            <ul className='flex ml-16 gap-x-14 font-semibold'>
+            <ul className='flex pr-12 gap-x-14 font-semibold'>
                 <li className=''><Link to='/'>Home</Link></li>
                 <li className=''><Link to='/gallery'>Gallery</Link></li>
                 <li className=''><Link to='/about'>About</Link></li>
@@ -21,8 +21,8 @@ export const Navbar = () => {
         </div>
 
         <div className='flex items-center gap-x-7'>
-        <li className='text-gray-500 list-none'><Link to='/cart'><FaCartShopping size={20}/></Link></li>
-        <button className='border p-3 rounded-lg bg-[#E63946] outline-none text-white font-bold'><a href="#buysection">Place an Order</a></button>
+        
+        <li className='text-gray-500 list-none' title='Cart'><Link to='/cart'><FaCartShopping size={20}/></Link></li>
 
         </div>
     </div>
