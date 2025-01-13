@@ -22,7 +22,7 @@ export const Navbar = () => {
 
         <div className='flex items-center gap-x-7'>
         
-        <li className='text-gray-500 list-none' title='Cart'><Link to='/cart'><FaCartShopping size={20}/></Link></li>
+        <li className='text-gray-500 list-none' title='Cart'><Link to='/cart'><FaCartShopping size={25}/></Link></li>
 
         </div>
     </div>
