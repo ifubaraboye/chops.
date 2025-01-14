@@ -14,7 +14,7 @@ export function Gallery() {
       <div className="px-8">
         <h1 className="text-[50px] font-bold flex">Gallery <span className="text-red-500">.</span> </h1>
 
-        <div className="grid grid-cols-5 gap-x-5 gap-y-5 flex-wrap pb-20">
+        <div className="grid gap-y-5 md:grid-cols-2 md:gap-x-5 lg:grid-cols-5 pb-20">
           <img src={Chicken} alt="chicken"></img>
           <img src={Chicken} alt="chcken"></img>
           <img src={Closeup} alt="closeup"></img>
