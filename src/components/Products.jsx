@@ -6,7 +6,7 @@ import Chicken from '../assets/chicken.jpg'
 import Snail from '../assets/snail2.jpg'
 import Turkey from '../assets/chicken2.jpg'
 import Gizzard from '../assets/gizzard.jpg'
-import { useState } from 'react'
+
 
 let Products = [
     
@@ -96,7 +96,7 @@ let Products = [
         category: 'Protein',
         type: 'Kebabs',
         price: 1000,
-        contents : 'This is a pack of 6 pieces of meat pie',
+        // contents : 'This is a pack of 6 pieces of meat pie',
         image: Gizzard,
         title: 'Beef'
     },
@@ -106,7 +106,7 @@ let Products = [
         category: 'Protein',
         type: 'Kebabs',
         price: 2500,
-        contents : 'This is a pack of 6 pieces of meat pie',
+        // contents : 'This is a pack of 6 pieces of meat pie',
        image: Gizzard,
         title: 'Gizzard'
     },
@@ -116,7 +116,7 @@ let Products = [
         category: 'Protein',
         type: 'Kebabs',
         price: 3000,
-        contents : 'This is a pack of 6 pieces of meat pie',
+        // contents : 'This is a pack of 6 pieces of meat pie',
        image: Snail,
         title: 'Snail'
     },
@@ -126,7 +126,7 @@ let Products = [
         category: 'Protein',
         type: 'Chicken',
         price: 3000,
-        contents : 'This is a pack of 6 pieces of meat pie',
+        // contents : 'This is a pack of 6 pieces of meat pie',
        image: Snail,
         title: 'Chicken'
     },
@@ -136,7 +136,7 @@ let Products = [
         category: 'Protein',
         type: 'Turkey',
         price: 35000,
-        contents : 'This is a pack of 6 pieces of meat pie',
+        // contents : 'This is a pack of 6 pieces of meat pie',
        image: Snail,
         title: 'Turkey'
     }

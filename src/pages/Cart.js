@@ -26,10 +26,10 @@ export function Cart() {
                 onHide={handleClose}
                 centered // Centers the modal vertically
                 aria-labelledby="checkout-modal"
-                className='border w-[450px] rounded-lg justify-center shadow-lg absolute top-[300px] mx-[525px] z-10 bg-white py-5'
+                className='border rounded-lg justify-center shadow-lg fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-50 bg-white py-5'
             >
                 <Modal.Header closeButton>
-                    <Modal.Title id="checkout-modal" className="font-semibold text-center text-[50px] px-9">Order Confirmation</Modal.Title>
+                    <Modal.Title id="checkout-modal" className="font-semibold text-center text-[50px] px-10 lg:px-9">Order Confirmation</Modal.Title>
                 </Modal.Header>
                 <Modal.Body className="text-center">
                     Your order has been processed successfully!
@@ -43,7 +43,7 @@ export function Cart() {
 
             {cart.length === 0 ? (
                 <div className="grid justify-center">
-                    <img src={Empty} width={100} alt="Cart"></img>
+                    <img className="pl-5" src={Empty} width={100} alt="Cart"></img>
                     <p className="py-3 font-semibold">Your Cart Is Empty</p>
                 </div>
             ) : (

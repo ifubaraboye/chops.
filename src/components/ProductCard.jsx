@@ -21,7 +21,7 @@ const ProductCard = ({product}) => {
     setShow(true)
     setTimeout( () => {
       setShow(false);
-    }, 7000)
+    }, 1000)
   }
 
   return (
@@ -37,7 +37,7 @@ const ProductCard = ({product}) => {
         </div>
         
         <div className=''>
-          <Modal show={showModal} onHide={handleClose} className='border  w-[450px] rounded-lg justify-center shadow-lg absolute lg:top-[800px] top-1 lg:mx-[525px] z-10 bg-white py-5'>
+          <Modal show={showModal} onHide={handleClose} className='border lg:w-[450px] w-[300px] rounded-lg shadow-lg fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 bg-white py-5'>
           <Modal.Header closeButton className='pl-8'>
             <Modal.Title className='text-[50px]'>{product.title}</Modal.Title>
             <Modal.Title className='text-[20px]'>Contents</Modal.Title>
