@@ -27,7 +27,7 @@ const ProductCard = ({product}) => {
   return (
     <div className='grid items-center p-3 border-[3px] hover:border-[#E63946]'>
         <div>
-            <img className='' src={product.image} alt="" width={200} />
+            <img className='flex mx-[70px] lg:mx-0' src={product.image} alt="" width={200} />
         </div>
         <div>
           <p className='font-semibold'>{product.title}</p>
@@ -37,7 +37,7 @@ const ProductCard = ({product}) => {
         </div>
         
         <div className=''>
-          <Modal show={showModal} onHide={handleClose} className='border w-[450px] rounded-lg justify-center shadow-lg absolute top-[800px] mx-[525px] z-10 bg-white py-5'>
+          <Modal show={showModal} onHide={handleClose} className='border  w-[450px] rounded-lg justify-center shadow-lg absolute lg:top-[800px] top-1 lg:mx-[525px] z-10 bg-white py-5'>
           <Modal.Header closeButton className='pl-8'>
             <Modal.Title className='text-[50px]'>{product.title}</Modal.Title>
             <Modal.Title className='text-[20px]'>Contents</Modal.Title>

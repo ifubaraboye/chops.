@@ -7,7 +7,7 @@ export const Navbar = () => {
   return (
     <div className='flex justify-between px-9 px-auto py-4 items-center flex-wrap'>
         <div className='flex items-baseline'>
-            <p className='text-[30px] font-bold'>Chops</p>
+            <p className='text-[30px] font-bold'><Link to='/'>Chops</Link></p>
             <p className='text-[30px] font-bold text-[#E63946]'>.</p>
         </div>
         
