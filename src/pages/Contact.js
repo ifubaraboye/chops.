@@ -17,13 +17,13 @@ export function Contact() {
                 <input type="email" placeholder="Email" className="p-3 bg-gray-100 w-[300px] mb-3 focus:outline-none"></input> <br></br>
                 {/* <input type="textarea" className="w-[500px]  bg-gray-100 focus:outline-none" placeholder="Your Message" ></input> */}
 
-                <div className="sm:hidden lg:visible">
-                <textarea className="bg-gray-100 p-3 resize-none focus:outline-none " placeholder="Enter message" rows={10} cols={60}></textarea>
+                <div className="hidden lg:block">
+                <textarea className="bg-gray-100 p-3 resize-none focus:outline-none" placeholder="Enter message" rows={10} cols={60}></textarea>
 
                 </div>
 
                 <div className="lg:hidden">
-                <textarea className="bg-gray-100 p-3 resize-none focus:outline-none " placeholder="Enter message" rows={10} cols={28}></textarea>
+                <textarea className="bg-gray-100 p-3 resize-none focus:outline-none " placeholder="Enter message" rows={10} cols={30}></textarea>
                 </div>
               </div>
               <div className="pb-10">

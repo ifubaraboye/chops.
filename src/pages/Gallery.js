@@ -12,7 +12,7 @@ export function Gallery() {
     <div>
       <Navbar />
       <div className="px-8">
-        <h1 className="text-[50px] font-bold flex">Gallery <span className="text-red-500">.</span> </h1>
+        <h1 className="text-[50px] font-bold flex mb-6">Gallery <span className="text-red-500">.</span> </h1>
 
         <div className="grid gap-y-5 md:grid-cols-2 md:gap-x-5 lg:grid-cols-5 pb-20">
           <img src={Chicken} alt="chicken"></img>
